@@ -18,6 +18,9 @@ function solution(numbers) {
         }
     }
 
+
+
+    // 스프레드 사용하는 방법 ㅠㅠ 
     answer = [ ...new Set(answer)]
     answer.sort((a,b)=>a-b)
 
@@ -32,5 +35,7 @@ const result = solution([2,1,3,4,1])
 console.log(result);
 const result2 = solution([5,0,2,7])
 console.log(result2);
+
+
 
 
